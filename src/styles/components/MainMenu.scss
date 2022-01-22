@@ -1,0 +1,29 @@
+.MainMenu {
+    font-family: $menu-font;
+    font-weight: bold;
+    border-bottom: $main-color solid 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    .LogoTitleBox {
+        display: flex;
+        align-items: center;
+        .NavLogo {
+            width: 25px;
+            margin-right: 10px;
+        }
+        .LogoTitle {
+            color: $main-color;
+            font-weight: bold;
+        }
+    }
+    .NavList {
+        list-style: none;
+        display: flex;
+        .NavItem {
+            text-decoration: none;
+            margin-right: 10px;
+        }
+    }
+}
